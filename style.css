@@ -54,7 +54,7 @@ div.content {
   height: 500px;
   display: flex;
   padding: 80px 20px;
-  background-image: url(/Image/dream-bg.png);
+  background-image: url(Image/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
 }
@@ -88,7 +88,7 @@ p {
   font-size: 42px;
 }
 .sectionThird {
-  background-image: url(/Image/exp-bg.png);
+  background-image: url(Image/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left center;
 }
