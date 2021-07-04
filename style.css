@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Spinnaker", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+.nameStyle {
+  color: orange;
+}
+h3 {
+  margin-top: 30px;
+}
+div.content {
+  background-image: url(Image/top-banner.png);
+  background-repeat: no-repeat;
+}
+.leftDiv {
+  width: 500px;
+  float: left;
+  font-size: 20px;
+  text-align: justify;
+  padding-top: 70px;
+  padding-left: 30px;
+}
+.rightDiv {
+  width: 51%;
+  float: right;
+  padding: 14px 0px 0px 84px;
+}
+.rightDiv img {
+  width: 80%;
+}
+.leftDiv P {
+  margin-bottom: 35px;
+  color: rgb(189, 84, 8);
+}
+.button {
+  text-transform: uppercase;
+  background-image: linear-gradient(rgb(248, 89, 89), rgb(192, 192, 65));
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.sectionTwo {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  padding: 80px 20px;
+  background-image: url(/Image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.leftSection {
+  padding-left: 70px;
+}
+.leftSection img {
+  width: 80%;
+}
+.rightSection {
+  width: 462px;
+  padding-top: 50px;
+  text-align: justify;
+}
+.rightSection h3,
+p {
+  padding-bottom: 25px;
+}
+.rightSection p {
+  font-size: 20px;
+  color: rgb(189, 84, 8);
+}
+
+.contentThird {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  padding: 80px 20px;
+}
+.contentThird h1 {
+  font-size: 42px;
+}
+.sectionThird {
+  background-image: url(/Image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+.contentThird p {
+  font-size: 20px;
+}
+.sameCard {
+  width: 540px;
+  height: 320px;
+  padding: 20px;
+  margin-left: 50px;
+  border-left: 8px solid blue;
+  box-shadow: black 2px 4px 9px;
+  text-align: justify;
+  transition: all 1s;
+}
+.sameCard:hover p {
+  color: rgb(189, 84, 8);
+}
+.sameCard:hover {
+  box-shadow: rgb(247, 5, 5) 6px -2px 29px;
+}
